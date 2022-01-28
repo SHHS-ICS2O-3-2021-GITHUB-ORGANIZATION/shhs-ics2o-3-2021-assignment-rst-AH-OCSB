@@ -45,7 +45,8 @@ while quit != "quit":
       print("\n potion of air \n fortune:  leaves carry unique lines and shapes. You find that these frost leaves were actually really warm. You go to put one into your pot to brew the potion when all of a sudden the machine starts to malfunction and black glitter starts to spur everywhere, so much that it starts to drown you in a deep hulationation. ")
 
     if userChoice1 == 2 and userChoice2 == 5 or userChoice1 == 5 and userChoice2 == 2: 
-      print("\n potion of air \n fortune:  leaves carry unique lines and shapes. You find that these frost leaves were actually really warm. You go to put one into your pot to brew the potion when all of a sudden the machine starts to malfunction and black glitter starts to spur everywhere, so much that it starts to drown you in a deep hulationation. ")
+      print("\n potion of glare - fortune: a bunch of crows start to glare at you as you eat your lunch outside the lab. Suddenly they come towards you and start to pin you down with their tals. As they eat your lunch, a bunch of leaves start falling from the sky, covering you as the crows leave.")
+
 
     if userChoice1 == 3 and userChoice2 == 4 or userChoice1 == 4 and userChoice2 == 3:
       print("\n potion of wealth \n fortune: you have gained incredible wealth from the rare gemstones and have an unlimited credit card to spend it on whatever you would like but as you may know, money doesn't buy happiness. It leads to greed and causes you to fall into a hard coffin buried in glitter… alive. ")
