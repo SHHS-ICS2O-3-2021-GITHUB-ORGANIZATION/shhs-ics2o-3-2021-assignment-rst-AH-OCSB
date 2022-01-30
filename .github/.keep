@@ -1,3 +1,8 @@
+#Name: Ariana Hrlic
+#Name of Program: Potion Madness - RST
+#Date of creation: January 26, 2022
+#purpose of program: Game that allows you to choose two item and recieve a fortune depending on the ones chosen
+
 quit = "hi"
 while quit != "quit":
   
@@ -9,20 +14,23 @@ while quit != "quit":
   bunchLeaves = 2
   rareGems = 3
   tubGlitter = 4
-  crowsTals = 5
+  crowsTalons = 5
 
+#input
   print(" welcome to Potion Madness! \n")
   gameStart = input("press enter to start/continue the game, press x to exit:")
 
   if gameStart == "x": 
     exit()
 
-  intsructions = print("welcome to your potion lab! \n \n New ingredients were just brought in, please select two from the list below to start brewing: \n \n (1)A dead frog that is covered in a silk lining of a clear substance that is unknown \n (2) A bunch of leaves from one of the frost bushes out in the yard \n (3) Some rare gemstones that had fallen out of a witches bag \n (4) A tub of black glitter \n (5) A bag of crows talon")
+  intsructions = print("welcome to your potion lab! \n \n New ingredients were just brought in, please select two from the list below to start brewing: \n \n (1)A dead frog that is covered in a silk lining of a clear substance that is unknown \n (2) A bunch of leaves from one of the frost bushes out in the yard \n (3) Some rare gemstones that had fallen out of a witches bag \n (4) A tub of black glitter \n (5) A bag of crows talons")
 
   userChoice1 = int(input("please enter your first choice:"))
   userChoice2 = int(input("please enter your second choice:"))
   foo = 5
 
+#proccessing
+#output
   while foo > 1:
     foo = foo - 10
     if userChoice1 == 1 and userChoice2 == 2 or userChoice1 == 2 and userChoice2 == 1:
@@ -52,7 +60,7 @@ while quit != "quit":
       print("\n potion of wealth \n fortune: you have gained incredible wealth from the rare gemstones and have an unlimited credit card to spend it on whatever you would like but as you may know, money doesn't buy happiness. It leads to greed and causes you to fall into a hard coffin buried in glitter… alive. ")
 
     if userChoice1 == 3 and userChoice2 == 5 or userChoice1 == 5 and userChoice2 == 3:
-      print("\n potion of love \n fortune: you find a bag filled with gems that fell out of a witches broom, as you put your hand into the bag to take one out you feel an incredible, heart wrenching amount of pain. You pull your hand out to find it covered in holes with crows tals in them.")
+      print("\n potion of love \n fortune: you find a bag filled with gems that fell out of a witches broom, as you put your hand into the bag to take one out you feel an incredible, heart wrenching amount of pain. You pull your hand out to find it covered in holes with crows talons in them.")
 
     if userChoice1 == 4 and userChoice2 == 5  or userChoice1 == 5 and userChoice2 == 4: 
       print("\n potion of spite \n fortune: randomly as you're brewing one of your many potions, your face begins to be covered in a dark screen - a bunch of crows fly through your window and eat you alive.")
